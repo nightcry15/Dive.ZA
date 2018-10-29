@@ -1,0 +1,120 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg1_closing {
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* fixed=parralax, scroll=normal*/
+}
+
+.pimg1 {
+  background-image: url("/img/img1.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("/img/img2.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("/img/img3.jpg");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("/img/img4.jpg");
+  min-height: 400px;
+}
+
+.pimg1_closing {
+  background-image: url("/img/img1.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 40px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.logo {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border_trans {
+  background-color: transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+}
+
+.extra-nav {
+  list-style: none;
+  display: inline-block;
+  margin-left: -35px;
+}
+
+.explore li a {
+  border: 2px solid white;
+  color: #ddd;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.navigation li {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.navigation li a:hover {
+  border: 1px solid white;
+  transition: all 0.05s ease-in;
+}
