@@ -11,7 +11,7 @@ html,body {
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg1_closing, .pimg5, .pimg6, .pimg7,
 .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15,
-.pimg16, .pimg17, .pimg18, .pimg19 {
+.pimg16, .pimg17, .pimg18, .pimg19, .pimg20 {
   position: relative;
   opacity: 0.75;
   background-position: center;
@@ -120,11 +120,16 @@ html,body {
   min-height: 400px;
 }
 
+.pimg20 {
+  background-image: url("img/img20.jpg");
+  min-height: 400px;
+}
+
 
 @media(max-width:700px){
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg1_closing,.pimg5, .pimg6, .pimg7,
   .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15,
-  .pimg16, .pimg17, .pimg18, .pimg19 {
+  .pimg16, .pimg17, .pimg18, .pimg19, .pimg20 {
     background-attachment: scroll;
   }
 }
@@ -153,6 +158,13 @@ html,body {
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
+}
+
+@media(max-width:1010px) {
+  .ptext {
+    top: 35%;
+    line-height: 86px;
+  }
 }
 
 .ptext-long {
