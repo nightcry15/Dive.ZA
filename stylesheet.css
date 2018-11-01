@@ -419,3 +419,7 @@ nav ul li a {
   border: 1px solid white;
   transition: 0.2s;
 }
+
+.cape-diving {
+  text-align: justify;
+}
