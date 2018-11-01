@@ -162,17 +162,24 @@ html,body {
 }
 
 h1 {
-  font-size: 75px;
-  color: #fff;
-  text-decoration: none;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  box-sizing: border-box;
-  width: 13%;
-  border-radius: 20px;
-  margin-left: 44%;
+  font-size: 32px;
+  color: #666;
+  text-align: center;
 }
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
+
+#left {
+  text-align: left;
+}
 
 .logo {
   position: absolute;
