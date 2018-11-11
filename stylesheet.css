@@ -125,7 +125,7 @@ html,body {
   min-height: 400px;
 }
 
-@media(max-width:700px){
+@media only screen and (max-width:700px) {
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg1_closing,.pimg5, .pimg6, .pimg7,
   .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15,
   .pimg16, .pimg17, .pimg18, .pimg19, .pimg20 {
@@ -134,6 +134,21 @@ html,body {
   .logo {
     min-width: 50%
   }
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+#logo {
+  display: flex;
+  width: 100%;
 }
 
 .section {
@@ -181,6 +196,14 @@ html,body {
   text-transform: uppercase;
 }
 
+#soc-links:link {
+  color: #666;
+}
+
+#soc-links:visited {
+  color: #666;
+}
+
 h1 {
   font-size: 32px;
   color: #666;
@@ -209,12 +232,6 @@ h3 {
   padding-left: 5%;
 }
 
-.logo {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-}
 
 .ptext .border {
   background-color: rgba(255,255,255,0.25);
